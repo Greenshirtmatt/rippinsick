@@ -1,29 +1,21 @@
 body {
   height: 100%;
-  background: url('../images/Desktop%20HD.png'), none, none rgb(0, 0, 0);
-  background-repeat: no-repeat, repeat, repeat;
-  background-size: auto auto, auto auto, auto auto;
-  background-position: center center, left top, left top;
-  background-attachment: fixed, scroll, scroll;
+  background: url('../images/logo%20v4.svg') rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center center;
+  background-attachment: fixed;
   font-size: 1em;
 }
 
 @media(max-width: 992px) {
   body {
-    height: 100%;
-    background-image: none, url('../images/Tablet%20Portrait.png'), none;
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-position: center center, center center, left top;
-    background-attachment: fixed, fixed, scroll;
+    background-size: 75% auto;
   }
 }
 
 @media(max-width: 768px) {
   body {
-    height: 100%;
-    background-image: none, none, url('../images/Mobile%20Portrait.png');
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: center center, center center, center top;
-    background-attachment: fixed, fixed, fixed;
+    font-size: 1em;
   }
 }
